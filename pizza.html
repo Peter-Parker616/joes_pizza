@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+        <title>Pizzaria JS - Faça seu pedido</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pizzaria</h1>
+    <form>
+        <label for="nome">Nome do Cliente:</label>
+        <input type="text" id="nome" name="nome">
+
+        <fieldset>
+            <legend>Tamanho da Pizza:</legend>
+            <label><input type="radio" name="tamanho" value="pequena"> Pequena (R$ 25,00)</label>
+            <label><input type="radio" name="tamanho" value="media"> Média (R$ 35,00)</label>
+            <label><input type="radio" name="tamanho" value="grande"> Grande (R$ 50,00)</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Adicionais (R$ 5,00 cada):</legend>
+            <label><input type="checkbox" name="adicionais" value="bacon"> Bacon</label>
+            <label><input type="checkbox" name="adicionais" value="queijo"> Queijo</label>
+            <label><input type="checkbox" name="adicionais" value="azeitona"> Azeitona</label>
+        </fieldset>
+
+        <button type="button" onclick="fazerPedido()">Fazer Pedido</button>
+    </form>
+
+    <h2>R$ <strong>00.00</strong></h2>
+
+    <script src="index.js"></script>
+</body>
+</html>
