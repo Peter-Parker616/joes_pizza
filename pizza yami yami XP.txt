@@ -1,0 +1,24 @@
+Nome: João Arthur Costa Oliveira
+Matricula: 37023623
+
+Explicação do Script:
+Validação do Nome:
+
+O campo #nome é obrigatório. Se estiver vazio, o sistema exibe um alerta e não permite continuar o pedido.
+Captura dos Tamanhos e Adicionais:
+
+Utiliza querySelector para capturar o tamanho da pizza e querySelectorAll para os adicionais selecionados.
+Cálculo do Total:
+
+O preço do tamanho é definido em um objeto. O total é calculado somando o preço da pizza ao total dos adicionais.
+Atualização do HTML:
+
+O valor calculado substitui o texto dentro do elemento <strong>.
+Feedback do Pedido:
+
+Após atualizar o valor, o script exibe uma mensagem de confirmação opcional.
+
+
+
+
+
